@@ -731,12 +731,10 @@ img {
 }
 .footer-form {
   display: flex;
+  gap: 24px;
 }
 .form-container{
   padding-left: 80px;
-}
-.footer-form-label{
-  padding-right:  24px;
 }
 .form-label-input {
   width: 264px;
