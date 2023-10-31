@@ -229,6 +229,8 @@ nav > a:hover {
 }
 .address {
   font-style: normal;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .section-four {
