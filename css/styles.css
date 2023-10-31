@@ -610,6 +610,8 @@ background-color: transparent;
 }
 .modal-input-name:focus{
   border-color: #4D5AE5;
+}
+.modal-input-name:focus + .modal-name-svg{
   fill: #4D5AE5;
 }
 .modal-name-svg{
@@ -841,7 +843,7 @@ color: var(--subtle-text-color);
   justify-content: center;
   fill: transparent;
 }
-.label-span:checked{
+.input-check:checked + .terms-of-condition .label-span{
   background-color: var(--pressed-state-color);
   border: none;
   fill: var(--light-color);
