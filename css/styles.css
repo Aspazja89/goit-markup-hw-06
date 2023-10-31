@@ -705,9 +705,7 @@ background-color: transparent;
   transform: translateY(100%);
 }
 
-.portfolio-overlay-text {
-  transform: translateY(100%);
-}
+
 
 .portfolio-link:focus {
   transform: translateY(100%);
@@ -722,7 +720,7 @@ background-color: transparent;
   letter-spacing: 0.02em;
   color: #434455;
   margin: 0;
-  transform: translateY(100%);
+
 }
 
 .footer-form-p {
@@ -873,4 +871,7 @@ color: var(--subtle-text-color);
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   margin-left: auto;
   margin-right: auto;
+}
+.label-span{
+  margin-right: 8px;
 }
